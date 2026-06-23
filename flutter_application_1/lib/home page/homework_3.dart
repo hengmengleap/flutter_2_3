@@ -6,7 +6,11 @@ class Homework3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+        title: Text("Burger Shop"),
+        centerTitle: true,
+      ),
       body: Column(
         children: [
           Padding(
